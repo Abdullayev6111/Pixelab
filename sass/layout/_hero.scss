@@ -1,0 +1,132 @@
+.hero {
+    width: 82%;
+    margin: 80px auto;
+    @include flex-between();
+    &-left {
+        width: 550px;
+        h1 {
+            font-size: 60px;
+            font-weight: 850px;
+            font-family: ageo;
+            color: $secondary-color;
+        }
+        p {
+            font-weight: 500;
+            font-family: ageo;
+            font-size: 22px;
+            color: $text-black;
+        }
+        &-btn1 {
+            width: 160px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: $bg-btn;
+            color: $text-white;
+            font-family: ageo;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+        }
+        &-btn2 {
+            width: 170px;
+            height: 60px;
+            border: none;
+            @include flex-center();
+            gap: 15px;
+            background-color: $text-white;
+        }
+    }
+    &-right {
+        width: 550px;
+        height: 620px;
+        position: relative;
+        // filter: drop-shadow(0 0 5px black);
+        &-img1 {
+            position: absolute;
+            left: -60px;
+            top: 100px;
+            z-index: 2;
+        }
+        &-img2 {
+            width: 550px;
+            position: absolute;
+            top: 50px;
+            left: 0px;
+            z-index: 1;
+        }
+        &-content-top {
+            width: 275px;
+            height: 73px;
+            display: flex;
+            gap: 20px;
+            padding: 15px;
+            box-shadow: 0px 5px 15px black;
+            border-radius: 10px;
+            position: absolute;
+            left: -50px;
+            top: 90px;
+            h2 {
+                font-weight: 700;
+                font-size: 14px;
+                font-family: ageo;
+                color: $text-black;
+            }
+            h3 {
+                font-size: 12px;
+                color: $text-black;
+                font-weight: 700;
+                font-family: ageo;
+                margin-top: 5px;
+                @include flex-center();
+                justify-content: left;
+                gap: 7px;
+                span {
+                    font-weight: 500;
+                    color: $text-gray;
+                }
+            }
+        }
+        &-content-bottom {
+            width: 217px;
+            height: 73px;
+            gap: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px black;
+            position: absolute;
+            left: -130px;
+            bottom: 90px;
+            h2 {
+                font-weight: 700;
+                font-size: 14px;
+                font-family: ageo;
+                color: $text-black;
+            }
+            h3 {
+                font-size: 12px;
+                color: $text-black;
+                font-weight: 700;
+                font-family: ageo;
+                margin-top: 5px;
+                @include flex-center();
+                justify-content: left;
+                gap: 7px;
+                span {
+                    font-weight: 500;
+                    color: $text-gray;
+                }
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+    }
+    @media (max-width: 992px) {
+    }
+    @media (max-width: 768px) {
+    }
+    @media (max-width: 576px) {
+    }
+    @media (max-width: 360px) {
+    }
+}

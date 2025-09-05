@@ -1,0 +1,68 @@
+.blocks {
+    width: 82%;
+    margin: 150px auto;
+    @include flex-between();
+    &-right {
+        @include flex-center();
+        position: relative;
+        img {
+            transition: all 0.3s linear;
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+        &-circle {
+            width: 85px;
+            height: 85px;
+            background-color: $play-btn;
+            border-radius: 50%;
+            position: absolute;
+            @include flex-center();
+        }
+    }
+    &-left {
+        h1 {
+            width: 300px;
+            font-family: sansDM;
+            font-weight: 600;
+            font-size: 22px;
+            color: $primary-color;
+        }
+        p {
+            width: 320px;
+            font-family: sansDM;
+            font-size: 16px;
+            color: $blocks-text;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+        button {
+            width: 135px;
+            height: 50px;
+            border-radius: 25px;
+            border: 2px solid $text-gray;
+            background-color: $text-white;
+            font-family: sansDM;
+            font-size: 16px;
+            font-weight: 500;
+            color: $primary-color;
+            margin-top: 80px;
+            transition: all 0.3s ease;
+            &:hover {
+                background-color: $bg-btn;
+                color: $text-white;
+                border: none;
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+    }
+    @media (max-width: 992px) {
+    }
+    @media (max-width: 768px) {
+    }
+    @media (max-width: 576px) {
+    }
+    @media (max-width: 360px) {
+    }
+}

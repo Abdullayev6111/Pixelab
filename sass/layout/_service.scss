@@ -1,0 +1,69 @@
+.service {
+    width: 82%;
+    margin: 50px auto;
+    p {
+        font-weight: 700;
+        font-family: ageo;
+        font-size: 14px;
+        text-align: center;
+        color: $text-gray;
+    }
+    h1 {
+        font-family: ageo;
+        font-size: 52px;
+        font-weight: 700;
+        text-align: center;
+        color: $text-black;
+        margin-top: 10px;
+    }
+    &-cards {
+        margin-top: 100px;
+        @include flex-between();
+        &-1 {
+            width: 352px;
+            height: 508px;
+            border-radius: 28px;
+            @include flex-center();
+            gap: 30px;
+            flex-direction: column;
+            box-shadow: 0px 0px 5px black;
+            padding: 20px;
+            transition: all 0.3s ease;
+            &:hover {
+                transform: scale(1.05);
+            }
+            h1 {
+                font-family: ageo;
+                font-size: 36px;
+                font-weight: 700;
+                color: $text-black;
+            }
+            p {
+                font-family: ageo;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            button {
+                width: 162px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: $bg-btn;
+                color: $text-white;
+                border: none;
+                font-family: ageo;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+    }
+    @media (max-width: 992px) {
+    }
+    @media (max-width: 768px) {
+    }
+    @media (max-width: 576px) {
+    }
+    @media (max-width: 360px) {
+    }
+}

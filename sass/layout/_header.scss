@@ -1,0 +1,62 @@
+.header {
+    width: 82%;
+    margin: 50px auto;
+    @include flex-between();
+    height: 50px;
+    &-content {
+        width: 378px;
+        height: 30px;
+        ul {
+            @include flex-between();
+            list-style: none;
+            li {
+                a {
+                    text-decoration: none;
+                    font-family: ageo;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: $text-black;
+                    transition: all 0.3 ease;
+                    &:hover {
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    &-registration {
+        width: 188px;
+        height: 50px;
+        @include flex-between();
+        &-btn1 {
+            font-weight: 500;
+            font-size: 18px;
+            font-family: ageo;
+            color: $text-black;
+            border: none;
+            background-color: transparent;
+        }
+        &-btn2 {
+            width: 120px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            font-weight: 500;
+            font-size: 18px;
+            font-family: ageo;
+            color: $text-white;
+            background-color: $bg-btn;
+        }
+    }
+    @media (max-width: 1200px) {
+    }
+    @media (max-width: 992px) {
+    }
+    @media (max-width: 768px) {
+    }
+    @media (max-width: 576px) {
+    }
+    @media (max-width: 360px) {
+    }
+}
