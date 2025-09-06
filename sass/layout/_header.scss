@@ -50,8 +50,34 @@
         }
     }
     @media (max-width: 1200px) {
+        width: 90%;
     }
     @media (max-width: 992px) {
+        width: 92%;
+        img {
+            width: 170px;
+            height: 60px;
+        }
+        &-content {
+            width: 300px;
+            ul {
+                li {
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        &-registration {
+            width: 150px;
+            &-btn1 {
+                font-size: 16px;
+            }
+            &-btn2 {
+                width: 90px;
+                font-size: 16px;
+            }
+        }
     }
     @media (max-width: 768px) {
     }

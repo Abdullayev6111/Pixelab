@@ -9,6 +9,31 @@
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 576px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    max-width: 360px;
+  }
+}
 
 @font-face {
   font-family: ageo;
@@ -75,6 +100,36 @@
   font-family: ageo;
   color: white;
   background-color: #ff6600;
+}
+@media (max-width: 1200px) {
+  .header {
+    width: 90%;
+  }
+}
+@media (max-width: 992px) {
+  .header {
+    width: 92%;
+  }
+  .header img {
+    width: 170px;
+    height: 60px;
+  }
+  .header-content {
+    width: 300px;
+  }
+  .header-content ul li a {
+    font-size: 15px;
+  }
+  .header-registration {
+    width: 150px;
+  }
+  .header-registration-btn1 {
+    font-size: 16px;
+  }
+  .header-registration-btn2 {
+    width: 90px;
+    font-size: 16px;
+  }
 }
 .hero {
   width: 82%;
@@ -205,6 +260,86 @@
   font-weight: 500;
   color: #8a898e;
 }
+@media (max-width: 1200px) {
+  .hero {
+    width: 90%;
+  }
+  .hero-left h1 {
+    font-size: 50px;
+  }
+  .hero-left p {
+    font-size: 20px;
+  }
+  .hero-right {
+    width: 450px;
+    height: 520px;
+  }
+  .hero-right-img1 {
+    left: -150px;
+    top: 40px;
+  }
+  .hero-right-img2 {
+    width: 450px;
+    top: 30px;
+  }
+  .hero-right-content-top {
+    width: 225px;
+    height: 63px;
+    left: -40px;
+    top: 70px;
+  }
+  .hero-right-content-top h2 {
+    font-size: 12px;
+  }
+  .hero-right-content-top h3 {
+    font-size: 10px;
+  }
+  .hero-right-content-bottom {
+    width: 175px;
+    height: 63px;
+    left: -100px;
+    bottom: 70px;
+  }
+  .hero-right-content-bottom h2 {
+    font-size: 12px;
+  }
+  .hero-right-content-bottom h3 {
+    font-size: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .hero {
+    width: 92%;
+  }
+  .hero-left h1 {
+    font-size: 45px;
+  }
+  .hero-left p {
+    font-size: 18px;
+  }
+  .hero-right {
+    width: 400px;
+    height: 500px;
+  }
+  .hero-right-img1 {
+    width: 500px;
+    left: -20px;
+    top: 70px;
+  }
+  .hero-right-content-top {
+    width: 210px;
+    height: 60px;
+    gap: 15px;
+    padding: 10px;
+    left: -30px;
+  }
+  .hero-right-content-bottom {
+    width: 200px;
+    height: 60px;
+    gap: 15px;
+    padding: 10px;
+  }
+}
 .service {
   width: 82%;
   margin: 50px auto;
@@ -268,6 +403,41 @@
   font-weight: 500;
   font-size: 18px;
 }
+@media (max-width: 1200px) {
+  .service {
+    width: 90%;
+  }
+  .service-cards {
+    margin-top: 70px;
+    gap: 20px;
+  }
+  .service-cards-1 {
+    width: 330px;
+    height: 450px;
+  }
+}
+@media (max-width: 992px) {
+  .service {
+    width: 92%;
+  }
+  .service h1 {
+    font-size: 45px;
+  }
+  .service-cards {
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .service-cards-1 {
+    width: 260px;
+    height: 400px;
+  }
+  .service-cards-1 h1 {
+    font-size: 18px;
+  }
+  .service-cards-1 p {
+    font-size: 14px;
+  }
+}
 .blocks {
   width: 82%;
   margin: 150px auto;
@@ -330,6 +500,31 @@
   color: white;
   border: none;
 }
+@media (max-width: 1200px) {
+  .blocks {
+    width: 90%;
+  }
+  .blocks-right img {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .blocks {
+    width: 92%;
+  }
+  .blocks-right {
+    width: 60%;
+  }
+  .blocks-right img {
+    width: 100%;
+  }
+  .blocks-left p {
+    margin-top: 20px;
+  }
+  .blocks-left button {
+    margin-top: 50px;
+  }
+}
 .testimonials {
   width: 68%;
   margin: 50px auto;
@@ -384,4 +579,29 @@
   color: #8a898e;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+@media (max-width: 1200px) {
+  .testimonials {
+    width: 90%;
+  }
+  .testimonials-content {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 992px) {
+  .testimonials {
+    width: 92%;
+  }
+  .testimonials h1 {
+    font-size: 45px;
+  }
+  .testimonials-content {
+    margin-top: 50px;
+  }
+  .testimonials-content-1 {
+    width: 400px;
+  }
+  .testimonials-content-1 h1 {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=main.css.map */

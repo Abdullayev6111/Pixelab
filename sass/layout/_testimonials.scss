@@ -53,8 +53,25 @@
         }
     }
     @media (max-width: 1200px) {
+        width: 90%;
+        &-content {
+            margin-top: 60px;
+        }
     }
     @media (max-width: 992px) {
+        width: 92%;
+        h1 {
+            font-size: 45px;
+        }
+        &-content {
+            margin-top: 50px;
+            &-1 {
+                width: 400px;
+                h1 {
+                    font-size: 18px;
+                }
+            }
+        }
     }
     @media (max-width: 768px) {
     }
