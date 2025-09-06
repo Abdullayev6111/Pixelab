@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pixelab Agency</title>
         <link rel="stylesheet" href="./sass/main.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <section class="container">
@@ -136,7 +140,11 @@
                 <p>SERVICE</p>
                 <h1>Our Vison & Our Goal</h1>
                 <div class="service-cards">
-                    <div class="service-cards-1">
+                    <div
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        class="service-cards-1"
+                    >
                         <svg
                             width="77"
                             height="77"
@@ -158,7 +166,11 @@
                         </p>
                         <button>Learn More</button>
                     </div>
-                    <div class="service-cards-1">
+                    <div
+                        data-aos="fade-up"
+                        data-aos-duration="1200"
+                        class="service-cards-1"
+                    >
                         <svg
                             width="77"
                             height="58"
@@ -181,7 +193,11 @@
                         </p>
                         <button>Learn More</button>
                     </div>
-                    <div class="service-cards-1">
+                    <div
+                        data-aos="fade-up"
+                        data-aos-duration="1400"
+                        class="service-cards-1"
+                    >
                         <svg
                             width="77"
                             height="77"
@@ -217,7 +233,7 @@
                     </p>
                     <button>Explore</button>
                 </div>
-                <div class="blocks-right">
+                <div data-aos="flip-left" class="blocks-right">
                     <img src="./images/Photo.png" alt="" />
                     <div class="blocks-right-circle">
                         <svg
@@ -241,7 +257,7 @@
                 <p>TESTMONIALS</p>
                 <h1>What Clients say about us</h1>
                 <div class="testimonials-content">
-                    <div class="testimonials-content-1">
+                    <div data-aos="flip-up" class="testimonials-content-1">
                         <img src="./images/Userpic.png" alt="" />
                         <div>
                             <h1>
@@ -253,7 +269,7 @@
                             <p>Rayhan Curran</p>
                         </div>
                     </div>
-                    <div class="testimonials-content-1">
+                    <div data-aos="flip-up" class="testimonials-content-1">
                         <img src="./images/Mask.png" alt="" />
                         <div>
                             <h1>
@@ -264,7 +280,7 @@
                             <p style="margin-top: 40px">Kayley Frame</p>
                         </div>
                     </div>
-                    <div class="testimonials-content-1">
+                    <div data-aos="flip-down" class="testimonials-content-1">
                         <img src="./images/Userpic (1).png" alt="" />
                         <div>
                             <h1>
@@ -274,7 +290,7 @@
                             <p style="margin-top: 75px">Gene Whitfield</p>
                         </div>
                     </div>
-                    <div class="testimonials-content-1">
+                    <div data-aos="flip-down" class="testimonials-content-1">
                         <img src="./images/Userpic (2).png" alt="" />
                         <div>
                             <h1>
@@ -288,5 +304,9 @@
             </div>
         </section>
         <script src="./scrip.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
