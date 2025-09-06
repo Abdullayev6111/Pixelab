@@ -340,6 +340,21 @@
     padding: 10px;
   }
 }
+@media (max-width: 768px) {
+  .hero {
+    width: 92%;
+    flex-direction: column;
+  }
+  .hero-left {
+    text-align: center;
+  }
+  .hero-left button {
+    margin-left: 50px;
+  }
+  .hero-right {
+    width: 300px;
+  }
+}
 .service {
   width: 82%;
   margin: 50px auto;
@@ -436,6 +451,16 @@
   }
   .service-cards-1 p {
     font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .service-cards-1 {
+    width: 240px;
+    height: 350px;
+    gap: 15px;
+  }
+  .service-cards-1 p {
+    font-size: 12px;
   }
 }
 .blocks {
@@ -603,5 +628,21 @@
   }
   .testimonials-content-1 h1 {
     font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .testimonials {
+    width: 92%;
+  }
+  .testimonials-content {
+    gap: 5px;
+    margin-top: 30px;
+  }
+  .testimonials-content-1 {
+    width: 350px;
+    padding: 20px;
+  }
+  .testimonials-content-1 h1 {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=main.css.map */

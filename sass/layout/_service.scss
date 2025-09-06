@@ -88,6 +88,16 @@
         }
     }
     @media (max-width: 768px) {
+        &-cards {
+            &-1 {
+                width: 240px;
+                height: 350px;
+                gap: 15px;
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
     }
     @media (max-width: 576px) {
     }

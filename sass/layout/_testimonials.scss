@@ -74,6 +74,19 @@
         }
     }
     @media (max-width: 768px) {
+        width: 92%;
+        &-content {
+            gap: 5px;
+            margin-top: 30px;
+
+            &-1 {
+                width: 350px;
+                padding: 20px;
+                h1 {
+                    font-size: 16px;
+                }
+            }
+        }
     }
     @media (max-width: 576px) {
     }

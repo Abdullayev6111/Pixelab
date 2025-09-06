@@ -200,6 +200,17 @@
         }
     }
     @media (max-width: 768px) {
+        width: 92%;
+        flex-direction: column;
+        &-left {
+            text-align: center;
+            button {
+                margin-left: 50px;
+            }
+        }
+        &-right {
+            width: 300px;
+        }
     }
     @media (max-width: 576px) {
     }
