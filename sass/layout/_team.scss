@@ -20,6 +20,7 @@
         width: 100%;
         @include flex-between();
         margin: 50px auto;
+        gap: 40px;
         &-card1 {
             width: 370px;
             height: 370px;

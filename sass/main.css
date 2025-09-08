@@ -671,6 +671,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 50px auto;
+  gap: 40px;
 }
 .team-content-card1 {
   width: 370px;
