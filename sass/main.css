@@ -712,4 +712,120 @@
   margin-top: 70px;
   padding: 10px 40px;
   border-top: 2px solid rgba(21, 20, 57, 0.4);
+}
+
+.newsletter {
+  width: 80%;
+  margin: 50px auto;
+}
+.newsletter p {
+  font-family: ageo;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #8a898e;
+}
+.newsletter h1 {
+  font-family: ageo;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  color: #1e0e62;
+}
+.newsletter-content {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter-content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.newsletter-content-right p {
+  font-family: sansDM;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+}
+.newsletter-content-right input {
+  width: 700px;
+  height: 75px;
+  border: 1px solid #8a898e;
+  background-color: white;
+  border-radius: 50px;
+  padding-left: 50px;
+  font-family: ageo;
+  font-weight: 400;
+  font-size: 24px;
+  outline: none;
+  box-shadow: 0 5px 10px black;
+}
+.newsletter-content-right input::-moz-placeholder {
+  color: black;
+}
+.newsletter-content-right input::placeholder {
+  color: black;
+}
+.newsletter-content-right button {
+  width: 700px;
+  height: 50px;
+  border: none;
+  background-color: #ff6600;
+  border-radius: 10px;
+  color: white;
+  font-family: ageo;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer {
+  width: 80%;
+  margin: 100px auto;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #8a898e;
+  padding-bottom: 40px;
+}
+.footer-top-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.footer-top-left img {
+  width: 111px;
+  height: 23px;
+}
+.footer-top-left h2 {
+  font-family: sansDM;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1e0e62;
+}
+.footer-top-right ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer-top-right ul li a {
+  text-decoration: none;
+  color: #1e0e62;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sansDM;
+}
+.footer-bottom p {
+  font-family: sansDM;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(21, 20, 57, 0.4);
+  margin-top: 40px;
 }/*# sourceMappingURL=main.css.map */

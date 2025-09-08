@@ -1,0 +1,48 @@
+.footer {
+    width: 80%;
+    margin: 100px auto;
+    &-top {
+        @include flex-between();
+        border-bottom: 1px solid $text-gray;
+        padding-bottom: 40px;
+        &-left {
+            @include flex-center();
+            gap: 50px;
+            img {
+                width: 111px;
+                height: 23px;
+            }
+            h2 {
+                font-family: sansDM;
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+            }
+        }
+        &-right {
+            ul {
+                list-style: none;
+                @include flex-center();
+                gap: 30px;
+                li {
+                    a {
+                        text-decoration: none;
+                        color: $primary-color;
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-family: sansDM;
+                    }
+                }
+            }
+        }
+    }
+    &-bottom {
+        p {
+            font-family: sansDM;
+            font-weight: 400;
+            font-size: 16px;
+            color: $blocks-text;
+            margin-top: 40px;
+        }
+    }
+}

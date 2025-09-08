@@ -1,0 +1,61 @@
+.newsletter {
+    width: 80%;
+    margin: 50px auto;
+    p {
+        font-family: ageo;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color: $text-gray;
+    }
+    h1 {
+        font-family: ageo;
+        font-size: 52px;
+        font-weight: 700;
+        text-align: center;
+        color: $primary-color;
+    }
+    &-content {
+        margin-top: 80px;
+        @include flex-between();
+        &-right {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            p {
+                font-family: sansDM;
+                font-size: 18px;
+                font-weight: 400;
+                color: $text-black;
+                text-align: left;
+            }
+            input {
+                width: 700px;
+                height: 75px;
+                border: 1px solid $text-gray;
+                background-color: $text-white;
+                border-radius: 50px;
+                padding-left: 50px;
+                font-family: ageo;
+                font-weight: 400;
+                font-size: 24px;
+                outline: none;
+                box-shadow: 0 5px 10px black;
+                &::placeholder {
+                    color: $text-black;
+                }
+            }
+            button {
+                width: 700px;
+                height: 50px;
+                border: none;
+                background-color: $bg-btn;
+                border-radius: 10px;
+                color: $text-white;
+                font-family: ageo;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}
